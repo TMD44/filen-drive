@@ -9,6 +9,7 @@ import fr from "./lang/fr"
 import zh from "./lang/zh"
 import ko from "./lang/ko"
 import tr from "./lang/tr"
+import hu from "./lang/hu"
 
 const translations: {
 	[key: string]: {
@@ -25,7 +26,8 @@ const translations: {
 	fr,
 	zh,
 	ko,
-	tr
+	tr,
+	hu
 }
 
 export const i18n = (
